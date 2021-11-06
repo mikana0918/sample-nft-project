@@ -9,6 +9,7 @@
   "author": "mikana0918",
   "license": "ISC",
   "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
     "dotenv": "^10.0.0"
   }
 }
