@@ -1,0 +1,14 @@
+{
+  "name": "sample-nft-project",
+  "version": "1.0.0",
+  "description": "my sample nft project for practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "mikana0918",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
