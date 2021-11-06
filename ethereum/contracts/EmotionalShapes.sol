@@ -17,7 +17,7 @@ contract EmotionalShapes is ERC721 {
     function mint(address to)
         public returns (uint256)
     {
-        require(_tokenIdCounter.current() < 3); 
+        // require(_tokenIdCounter.current() < 3); 
         _tokenIdCounter.increment();
         _safeMint(to, _tokenIdCounter.current());
 
