@@ -44,6 +44,21 @@ const metadata = {
     image: "https://i.imgur.com/hMVRFoJ.jpeg",
     name: "Bored Triangle",
   },
+  4: {
+    attributes: [
+      {
+        trait_type: "Shape",
+        value: "Triangle",
+      },
+      {
+        trait_type: "Mood",
+        value: "Bored",
+      },
+    ],
+    description: "His Twitter Image",
+    image: "https://pbs.twimg.com/profile_images/1255543381347852288/LKtzr5w9_400x400.png",
+    name: "mikana0918",
+  },
 };
 
 export default function handler(req, res) {
