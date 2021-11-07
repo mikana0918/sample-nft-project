@@ -11,7 +11,7 @@ contract MyWaifu is ERC721 {
     constructor() ERC721("MyWaifus", "MWT") {}
 
     function _baseURI() internal pure override returns (string memory) {
-      return "https://ddee-60-152-193-3.ngrok.io/api/erc721/mwt/";
+        return "https://sample-nft-project.vercel.app/api/erc721/mwt/";
     }
 
     function mint(address to)
@@ -22,5 +22,9 @@ contract MyWaifu is ERC721 {
         _safeMint(to, _tokenIdCounter.current());
 
         return _tokenIdCounter.current();
+    }
+
+    function totalSupply() public pure returns (uint256) {
+        return 1000;
     }
 }

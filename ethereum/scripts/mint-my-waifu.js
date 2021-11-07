@@ -1,7 +1,7 @@
 require("dotenv").config();
 const { ethers } = require("ethers");
 
-const MY_NFT_ADDRESS = "0x6a3e6EE3970724c0C4dA30554c53e90108978782"
+const MY_NFT_ADDRESS = "0xFe7cEA82Adfb4E64aDe8632784C354527e686b80"
 const contract = require("../artifacts/contracts/MyWaifu.sol/MyWaifu.json");
 const contractInterface = contract.abi;
 
