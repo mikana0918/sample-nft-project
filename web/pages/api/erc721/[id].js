@@ -41,7 +41,8 @@ const metadata = {
       },
     ],
     description: "An bored triangle.",
-    image: "https://i.imgur.com/hMVRFoJ.jpeg",
+    // image: "https://i.imgur.com/hMVRFoJ.jpeg",
+    image: "https://pbs.twimg.com/profile_images/1255543381347852288/LKtzr5w9_400x400.png",
     name: "Bored Triangle",
   },
   4: {

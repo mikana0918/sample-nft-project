@@ -4,14 +4,14 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-contract EmotionalShapes is ERC721 {
+contract MyWaifu is ERC721 {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIdCounter;
 
-    constructor() ERC721("EmotionalShapes", "ESS") {}
+    constructor() ERC721("MyWaifus", "MWT") {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://ba9c-114-184-192-144.ngrok.io/api/erc721/";
+      return "https://ddee-60-152-193-3.ngrok.io/api/erc721/mwt/";
     }
 
     function mint(address to)
